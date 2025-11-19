@@ -87,7 +87,7 @@ fn main() {
                     #[cfg(target_os = "macos")]
                     composite_alpha_mode: bevy::window::CompositeAlphaMode::PostMultiplied,
                     #[cfg(target_os = "linux")]
-                    composite_alpha_mode: bevy::window::CompositeAlphaMode::PreMultiplied,
+                    composite_alpha_mode: bevy::window::CompositeAlphaMode::Opaque,
                     ..default()
                 }),
                 ..default()
